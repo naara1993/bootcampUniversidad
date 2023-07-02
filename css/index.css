@@ -1,0 +1,73 @@
+/* selector universal */
+
+*{
+    margin:0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/*fuentes font google*/
+
+@font-face {
+    font-family: 'MuseoModerno-Bold';
+    src: url('../fonts/Alike/MuseoModerno/static/MuseoModerno-Bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Asap-Regular';
+    src: url('../fonts/Alike/Asap/static/Asap-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Asap-Bold';
+    src: url('../fonts/Alike/Asap/static/Asap-Bold.ttf') format('truetype');
+  }
+
+/*variables de entorno */
+ :root{
+    --MuseoModerno : 'MuseoModerno-Bold';
+    --AsapRegular : 'Asap-Regular';
+    --AsapRegularBold: 'Asap-Regular',bold;
+    --AsapBold: 'Asap-Bold';
+    --azul:#0a2ff1;
+    --azulOscuro:#04146c;
+    --fondoColor:#edf7ff;
+ }
+ /*etiquetas*/
+ 
+ body{
+    background-color: var(--fondoColor);
+ }
+
+ /*clases*/
+ .text-header{
+    color:var(--azul);
+ }
+ .text-header h3 {
+    font-family:var(--MuseoModerno);
+    font-size: 117.33px;
+ }
+ .text-header   p{
+    font-family:var(--AsapRegular);
+    font-size: 52px;
+ }
+.text-body{
+    font-size: 33.33px;
+    font-family: var(--AsapRegularBold);
+    color:var(--azulOscuro);
+}
+.text-footer h3{
+    font-family:var(--MuseoModerno);
+    color:var(--azul);
+    font-size: 48px;
+}
+.lista{
+    font-family:var(--AsapBold);
+    font-size: 33.33px;
+    color:var(--azulOscuro);   
+}
+.texto-final{
+    font-family:var(--MuseoModerno);
+    font-size: 198.67px;
+    color:#8a9af1;
+}
+
+ 
