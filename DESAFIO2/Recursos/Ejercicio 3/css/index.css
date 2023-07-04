@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "SourceSans3-Regular";
+  src: url("../../fonts/Source_Sans_3/static/SourceSans3-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "SourceSans3-Black";
+  src: url("../../fonts/Source_Sans_3/static/SourceSans3-Black.ttf")
+    format("truetype");
+}
+:root {
+  --blue: #04146c;
+  --regular: "SourceSans3-Regular";
+  --black: "SourceSans3-Black";
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+main {
+  margin: 30px;
+  width: 50%;
+}
+
+.main-header {
+  color: white;
+  background-color: var(--blue);
+  font-size: 29pt;
+  font-family: var(--regular);
+}
+
+.main-titulo h3 {
+  color: var(--blue);
+  font-size: 66pt;
+  font-family: var(--black);
+}
+
+.main-img {
+  color: var(--blue);
+  font-size: 20pt;
+  font-family: var(--regular), bold;
+}
+.main-footer {
+  font-family: var(--regular);
+  font-size: 18pt;
+  color: var(--blue);
+  background-color: #edf7ff;
+}
